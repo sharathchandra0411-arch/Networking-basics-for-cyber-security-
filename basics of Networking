@@ -1,0 +1,134 @@
+Core Network Components (You must know these)
+🔹 Devices
+
+Router – Connects different networks (like your home to the internet)
+
+Switch – Connects devices inside the same network
+
+Firewall – Security guard that allows/blocks traffic
+
+Server – Provides services (web, email, files)
+
+Client – Requests services (your laptop, phone)
+
+3. IP Addresses (Digital Home Addresses)
+IPv4 Example:
+192.168.1.10
+
+
+Public IP – Visible on the internet
+
+Private IP – Used inside local networks
+
+Why attackers care:
+
+IPs reveal targets
+
+Scanning IP ranges finds vulnerable systems
+
+4. Ports & Services (Doors into a System)
+
+Each service runs on a port number:
+
+Port	Service	Risk
+80	HTTP	Unencrypted
+443	HTTPS	Secure
+22	SSH	Brute-force attacks
+21	FTP	Weak authentication
+3389	RDP	Major attack target
+
+👉 Cybersecurity rule: Close unused ports
+
+5. Protocols (Rules of Communication)
+
+Key ones to know:
+
+TCP/IP – Backbone of the internet
+
+HTTP / HTTPS – Web traffic
+
+FTP / SFTP – File transfer
+
+SMTP / POP3 / IMAP – Email
+
+DNS – Converts domain names to IPs
+
+Security angle:
+
+Unencrypted protocols = easy to intercept
+
+DNS can be abused for phishing & redirection
+
+6. The OSI Model (Attackers Love This)
+
+7 layers of communication:
+
+Physical
+
+Data Link
+
+Network
+
+Transport
+
+Session
+
+Presentation
+
+Application
+
+Why it matters:
+
+Helps analyze attacks
+
+Each layer has specific vulnerabilities
+
+Example:
+
+Layer 7 → Web attacks (SQL injection)
+
+Layer 4 → Port scanning
+
+7. Firewalls & Network Security
+Firewall Types
+
+Packet filtering – Basic rules
+
+Stateful – Tracks connections
+
+Next-Gen Firewall – Deep inspection + IDS/IPS
+
+Firewalls:
+
+Block malicious IPs
+
+Control inbound/outbound traffic
+
+Reduce attack surface
+
+8. Common Network Attacks
+Attack	Description
+DDoS	Floods network with traffic
+Man-in-the-Middle	Intercepts communication
+Port Scanning	Finds open services
+ARP Spoofing	Redirects local traffic
+DNS Poisoning	Sends users to fake sites
+9. Network Defense Basics
+
+Use encryption (HTTPS, VPNs)
+
+Segment networks (VLANs)
+
+Monitor traffic (IDS/IPS)
+
+Patch devices
+
+Strong authentication
+
+10. Tools Cybersecurity Beginners Should Know
+
+Wireshark – Packet analysis
+
+Nmap – Network scanning
+
+Netstat – View connection
