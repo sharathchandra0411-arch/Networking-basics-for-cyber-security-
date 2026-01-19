@@ -1,0 +1,115 @@
+TCP and UDP in Networking / Network Traffic
+
+Both TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are transport layer (Layer 4) protocols.
+They control how data moves across a network.
+
+TCP in Network Traffic
+What TCP Traffic Looks Like
+
+Connection-based
+
+Uses 3-way handshake
+
+Traffic is ordered and reliable
+
+Slower but accurate
+
+TCP Traffic Flow
+Client → SYN
+Server → SYN-ACK
+Client → ACK
+(Data transfer)
+
+Where TCP Is Used
+
+Web browsing (HTTP/HTTPS)
+
+Email
+
+File transfer (FTP, SFTP)
+
+Remote access (SSH)
+
+TCP Traffic Characteristics
+
+Acknowledgements (ACKs)
+
+Retransmissions if packets are lost
+
+Session tracking
+
+🔐 Security angle:
+
+Easier to monitor
+
+Common target for SYN floods and port scans
+
+UDP in Network Traffic
+What UDP Traffic Looks Like
+
+Connectionless
+
+No handshake
+
+No acknowledgements
+
+Faster but unreliable
+
+UDP Traffic Flow
+Sender → Data
+(Sender doesn’t wait)
+
+Where UDP Is Used
+
+Video streaming
+
+Online gaming
+
+VoIP (calls)
+
+DNS
+
+UDP Traffic Characteristics
+
+Low latency
+
+No retransmission
+
+Packet loss is acceptable
+
+⚠️ Security angle:
+
+Harder to track
+
+Common in DDoS attacks
+
+Easily spoofed
+
+TCP vs UDP (Networking & Traffic Comparison)
+Feature	TCP	UDP
+Connection	Yes	No
+Reliability	Guaranteed	Not guaranteed
+Speed	Slower	Faster
+Order	Maintained	Not maintained
+Handshake	Yes	No
+Monitoring	Easier	Harder
+Common Attacks	SYN flood	Amplification
+Network Traffic Example
+Loading a Website
+
+TCP → Loads the webpage reliably
+
+HTTPS runs over TCP
+
+Watching a Live Stream
+
+UDP → Sends continuous video
+
+Missing packets don’t stop playback
+
+TCP vs UDP in Cybersecurity Monitoring
+Aspect	TCP	UDP
+IDS/IPS	Effective	More challenging
+Logging	Detailed	Limited
+Spoofing	Harder	Easier
+DDoS Risk	Medium	High
