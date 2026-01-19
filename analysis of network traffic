@@ -1,0 +1,102 @@
+Types of Network Traffic
+1️⃣ Incoming (Inbound)
+
+Data coming into a network
+
+Example: User accessing a website
+
+⚠️ Risk: External attacks
+
+2️⃣ Outgoing (Outbound)
+
+Data going out of a network
+
+Example: Sending emails, uploads
+
+⚠️ Risk: Data exfiltration
+
+3️⃣ Internal Traffic
+
+Communication within a network
+
+Example: PC ↔ Server
+
+⚠️ Risk: Insider threats
+
+Network Traffic Based on Protocol
+🔹 TCP Traffic
+
+Reliable
+
+Ordered
+
+Slower
+
+Example: Web, email
+
+🔹 UDP Traffic
+
+Fast
+
+No guarantee
+
+Example: Streaming, DNS
+
+Common Network Traffic Protocols
+Protocol	Purpose
+HTTP/HTTPS	Web
+FTP	File transfer
+SMTP	Email sending
+DNS	Name resolution
+SSH	Secure remote access
+Network Traffic Flow Example
+User → Router → Switch → Server
+
+
+Each device:
+
+Forwards packets
+
+Applies rules (firewall, ACLs)
+
+Network Traffic Monitoring
+Why Monitor Traffic?
+
+Detect attacks
+
+Troubleshoot issues
+
+Improve performance
+
+Ensure compliance
+
+Tools Used
+
+Wireshark
+
+tcpdump
+
+NetFlow
+
+IDS/IPS systems
+
+Network Traffic in Cybersecurity
+Suspicious Traffic Indicators
+
+High packet rate
+
+Unusual ports
+
+Unknown IP addresses
+
+Repeated failed connections
+
+Large outbound transfers
+
+Common Network Traffic Attacks
+Attack	Traffic Behavior
+DDoS	Traffic flood
+Port Scan	Sequential port hits
+MITM	Intercepted packets
+Data Exfiltration	Large outbound flow
+Malware C2	Periodic beaconing
